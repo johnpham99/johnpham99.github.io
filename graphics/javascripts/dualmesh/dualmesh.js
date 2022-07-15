@@ -17,11 +17,11 @@ let time = 0;  // records the passage of time, used to move the objects
 
 // read in the polygon mesh files
 function preload() {
-  tetra = loadStrings('/javascripts/dualmesh/assets/icosa.txt');
-  octa = loadStrings('/javascripts/dualmesh/assets/octa.txt');
-  icosa = loadStrings('/javascripts/dualmesh/assets/icosa.txt');
-  star = loadStrings('/javascripts/dualmesh/assets/star.txt');
-  torus = loadStrings('/javascripts/dualmesh/assets/torus.txt');
+  tetra = loadStrings('/graphics/javascripts/dualmesh/assets/icosa.txt');
+  octa = loadStrings('/graphics/javascripts/dualmesh/assets/octa.txt');
+  icosa = loadStrings('/graphics/javascripts/dualmesh/assets/icosa.txt');
+  star = loadStrings('/graphics/javascripts/dualmesh/assets/star.txt');
+  torus = loadStrings('/graphics/javascripts/dualmesh/assets/torus.txt');
 }
 
 // called once at the start of the program
