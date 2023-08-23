@@ -3,11 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ray Tracer 1</title>
+  <title>Physics-Based Animations</title>
   <!-- PLEASE NO CHANGES BELOW THIS LINE (UNTIL I SAY SO) -->
   <script language="javascript" type="text/javascript" src="../libraries/p5.min.js"></script>
-  <script language="javascript" type="text/javascript" src="../javascripts/raytracer/sample_scenes.js"></script>
-  <script language="javascript" type="text/javascript" src="../javascripts/raytracer/raytracer.js"></script>
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -28,18 +26,22 @@
 
 <body class="d-flex flex-column vh-100">
   <main class=" mt-5 mx-5 container">
-    <h1>Ray Tracer 1</h1>
+    <h1>More Animations!</h1>
     <a href="../index.html">Back to Index</a>
     <div class="row mt-3">
-      <div class="col-xxl-7" id="sketch-holder"></div>
+      <div class="col-xxl-7" id="sketch-holder">
+        <img src="../images/rigidbody.gif">
+        <img src="../images/splines.gif">
+      </div>
       <div class="col-xxl-5">
 
-        <p>I wrote a ray tracing renderer! (Notice the shadows/shading)</p>
-        <p>Essentially, this is a collection of Javascript functions, that when called, will create a 3D scene and
-          produce 2D images of the scene.</p>
-        <p>Press Keys <strong>0-4</strong> to switch between scenes.</p>
-        <p>(May take a few seconds to load.)</p>
-        <p>Check out <a href="../pages/raytracer2.html">Ray Tracer 2</a>, where the scenes get exciting!</p>
+        <p>Animation that simulate physics!</p>
+        <p>The top animation is a demonstration of my rigid body simulator,
+          which is able to compute rigid body motions and handle collisions.</p>
+        <p>All of the motion calculations in the background involve position, orientation, linear/angular momentum,
+          mass, intertia, and gravity. </p>  
+
+        <p>The bottom animation demonstrates keyframe interpolation, which refers to how the positions and therefore motion, is animated and flows.</p>
       </div>
     </div>
   </main>
